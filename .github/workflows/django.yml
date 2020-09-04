@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.pip
     - name: Run Tests
       run: |
-        python manage.py test
+        python setup.py test
